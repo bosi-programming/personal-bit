@@ -2,6 +2,9 @@ module.exports = {
   extends: ['react-app', 'airbnb'],
   plugins: ['react-hooks', '@typescript-eslint'],
   parser: '@typescript-eslint/parser',
+  globals: {
+    JSX: true,
+  },
   env: {
     browser: true,
     jest: true,
@@ -41,7 +44,11 @@ module.exports = {
     'react/static-property-placement': 0,
     camelcase: 0,
     indent: 0,
-    quotes: ['error', 'single', { allowTemplateLiterals: true, avoidEscape: true }],
+    quotes: [
+      'error',
+      'single',
+      { allowTemplateLiterals: true, avoidEscape: true },
+    ],
     'import/extensions': 0,
     'import/no-named-as-default': 0,
     'jsx-a11y/click-events-have-key-events': 0,

@@ -9,5 +9,23 @@
  */
 
 {
+    "base/global-styles": {
+        "scope": "felipeb.personal-bit",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "ui/base/global-styles"
+    },
+    "base/theme": {
+        "scope": "felipeb.personal-bit",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "ui/base/theme"
+    },
+    "components/typography": {
+        "scope": "felipeb.personal-bit",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/typography"
+    },
     "$schema-version": "14.9.0"
 }
