@@ -385,15 +385,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.12.18":
-  version: 7.12.18
-  resolution: "@babel/runtime@npm:7.12.18::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.12.18.tgz"
-  dependencies:
-    regenerator-runtime: ^0.13.4
-  checksum: 0ba38dc8d478584b0b5fb15fc2b7855f9f20561917bd434a66429d55d1165199d6161bc5fb087b87254712827f63561ff5196df66701e5647d67c7d0f557569a
-  languageName: node
-  linkType: hard
-
 "@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.2.0, @babel/runtime@npm:^7.5.1":
   version: 7.15.3
   resolution: "@babel/runtime@npm:7.15.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.15.3.tgz"
@@ -1031,7 +1022,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^26.0.0":
+"@types/jest@npm:^26.0.22":
   version: 26.0.24
   resolution: "@types/jest@npm:26.0.24::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fjest%2F-%2Fjest-26.0.24.tgz"
   dependencies:
@@ -1065,13 +1056,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:12.20.4":
-  version: 12.20.4
-  resolution: "@types/node@npm:12.20.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fnode%2F-%2Fnode-12.20.4.tgz"
-  checksum: 30f1f5d8159fcb968206706f0f943167731f3d0763602571af29676b1afdcfe3b41524442cacdee3853a456dcd11d0e3ab2bf28b6821dfa2749a4b393fe7b510
-  languageName: node
-  linkType: hard
-
 "@types/parse-json@npm:^4.0.0":
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fparse-json%2F-%2Fparse-json-4.0.0.tgz"
@@ -1093,15 +1077,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^17.0.5":
-  version: 17.0.9
-  resolution: "@types/react-dom@npm:17.0.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-dom%2F-%2Freact-dom-17.0.9.tgz"
-  dependencies:
-    "@types/react": "*"
-  checksum: b7e898e1a22643a371f58e801a3d1d8cf13a82d77063c24be73e840ef8d877ca1d04adc5db168d0dac3167dc050a26b1d70efc5fe8566a7f46a3c488a8322989
-  languageName: node
-  linkType: hard
-
 "@types/react-transition-group@npm:^2.0.8":
   version: 2.9.2
   resolution: "@types/react-transition-group@npm:2.9.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-transition-group%2F-%2Freact-transition-group-2.9.2.tgz"
@@ -1111,7 +1086,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^17.0.8":
+"@types/react@npm:*":
   version: 17.0.17
   resolution: "@types/react@npm:17.0.17::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact%2F-%2Freact-17.0.17.tgz"
   dependencies:
@@ -1136,12 +1111,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/testing-library__jest-dom@npm:5.9.5":
-  version: 5.9.5
-  resolution: "@types/testing-library__jest-dom@npm:5.9.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Ftesting-library__jest-dom%2F-%2Ftesting-library__jest-dom-5.9.5.tgz"
+"@types/testing-library__jest-dom@npm:^5.9.5":
+  version: 5.14.1
+  resolution: "@types/testing-library__jest-dom@npm:5.14.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Ftesting-library__jest-dom%2F-%2Ftesting-library__jest-dom-5.14.1.tgz"
   dependencies:
     "@types/jest": "*"
-  checksum: f2ed81103acb52d54f992d826e3854551294618628997dc01f8955efd8c1d476d64715b79187371b09ec3e61e44cc10a7ffe1e427d1bda798552f83d18309056
+  checksum: 77fe7ad3a9d49250972a0e3289b6d536942f95f0d539f32a917cf78c9422113d55c00de53b53dd4de1de49b68c8b500faea62e3017c4a64736cfbfbade749e04
   languageName: node
   linkType: hard
 
@@ -1277,12 +1252,6 @@ __metadata:
   checksum: a99db94f80331a0bdd2e4828d43daa7d391312d6edf77d8f80fcd37530ea9eacbf8014dc3378a26e9e22891e0d97c5637fcde2d6272ed091de74ede22bec0224
   languageName: node
   linkType: hard
-
-"Button-91f1e4@workspace:components/Button":
-  version: 0.0.0-use.local
-  resolution: "Button-91f1e4@workspace:components/Button"
-  languageName: unknown
-  linkType: soft
 
 "abab@npm:^2.0.3, abab@npm:^2.0.5":
   version: 2.0.5
@@ -1758,6 +1727,51 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bosi-bit-personal@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "bosi-bit-personal@workspace:."
+  dependencies:
+    "@material-ui/core": ^3.9.4
+    "@testing-library/jest-dom": ^4.2.4
+    "@testing-library/react": ^11.2.6
+    "@types/eslint": ^7.2.10
+    "@types/eslint-plugin-prettier": ^3.1.0
+    "@types/jest": ^26.0.22
+    "@types/prettier": ^2.2.3
+    "@types/testing-library__jest-dom": ^5.9.5
+    "@typescript-eslint/eslint-plugin": ^4.22.0
+    "@typescript-eslint/parser": ^4.22.1-alpha.5
+    async: ^3.2.0
+    babel-eslint: ^10.1.0
+    config: ^3.3.6
+    cross-env: ^7.0.3
+    eslint: ^7.24.0
+    eslint-config-airbnb: ^18.2.1
+    eslint-config-prettier: ^8.2.0
+    eslint-config-react-app: ^6.0.0
+    eslint-plugin-flowtype: ^5.7.1
+    eslint-plugin-import: ^2.22.1
+    eslint-plugin-jsx-a11y: ^6.4.1
+    eslint-plugin-prettier: ^3.4.0
+    eslint-plugin-react: ^7.23.2
+    eslint-plugin-react-hooks: ^4.2.0
+    husky: ^7.0.1
+    jest: ^27.0.6
+    lint-staged: ">=10"
+    prettier: ^2.2.1
+    react: 17.0.2
+    react-dom: 17.0.2
+    request: ^2.88.2
+    ts-jest: ^27.0.4
+    ts-node: ^9.1.1
+    type-fest: ^1.0.2
+    typescript: ^4.3.5
+  peerDependencies:
+    react: 17.0.2
+    react-dom: 17.0.2
+  languageName: unknown
+  linkType: soft
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbrace-expansion%2F-%2Fbrace-expansion-1.1.11.tgz"
@@ -2127,13 +2141,6 @@ __metadata:
   version: 1.2.7
   resolution: "core-js@npm:1.2.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js%2F-%2Fcore-js-1.2.7.tgz"
   checksum: 0b76371bfa98708351cde580f9287e2360d2209920e738ae950ae74ad08639a2e063541020bf666c28778956fc356ed9fe56d962129c88a87a6a4a0612526c75
-  languageName: node
-  linkType: hard
-
-"core-js@npm:^3.0.0":
-  version: 3.16.1
-  resolution: "core-js@npm:3.16.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js%2F-%2Fcore-js-3.16.1.tgz"
-  checksum: 7924fa2a7f00e3a33bbe92fe42ba59fbbe7e01557a59824d000976300be3ba224cca20161f61654b3861ea80d244d6adfee6ed3ae6d6d9931210a37510fb7c9b
   languageName: node
   linkType: hard
 
@@ -3115,56 +3122,6 @@ __metadata:
   checksum: e969aeb175ccf97d8818aab9907a78f253568e0cc1b8762621c5d235bf031419d7e700f16f7711e89dfd1e0fce2b87a05f8a2800f18df0a96258f0780615fd8b
   languageName: node
   linkType: hard
-
-"fe-luma-core@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "fe-luma-core@workspace:."
-  dependencies:
-    "@babel/runtime": 7.12.18
-    "@material-ui/core": ^3.9.4
-    "@testing-library/jest-dom": ^4.2.4
-    "@testing-library/react": ^11.2.6
-    "@types/eslint": ^7.2.10
-    "@types/eslint-plugin-prettier": ^3.1.0
-    "@types/jest": ^26.0.0
-    "@types/node": 12.20.4
-    "@types/prettier": ^2.2.3
-    "@types/react": ^17.0.8
-    "@types/react-dom": ^17.0.5
-    "@types/testing-library__jest-dom": 5.9.5
-    "@typescript-eslint/eslint-plugin": ^4.22.0
-    "@typescript-eslint/parser": ^4.22.1-alpha.5
-    async: ^3.2.0
-    babel-eslint: ^10.1.0
-    config: ^3.3.6
-    core-js: ^3.0.0
-    cross-env: ^7.0.3
-    eslint: ^7.24.0
-    eslint-config-airbnb: ^18.2.1
-    eslint-config-prettier: ^8.2.0
-    eslint-config-react-app: ^6.0.0
-    eslint-plugin-flowtype: ^5.7.1
-    eslint-plugin-import: ^2.22.1
-    eslint-plugin-jsx-a11y: ^6.4.1
-    eslint-plugin-prettier: ^3.4.0
-    eslint-plugin-react: ^7.23.2
-    eslint-plugin-react-hooks: ^4.2.0
-    husky: ^7.0.1
-    jest: ^27.0.6
-    lint-staged: ">=10"
-    prettier: ^2.2.1
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-    request: ^2.88.2
-    ts-jest: ^27.0.4
-    ts-node: ^9.1.1
-    type-fest: ^1.0.2
-    typescript: ^4.3.5
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  languageName: unknown
-  linkType: soft
 
 "file-entry-cache@npm:^6.0.1":
   version: 6.0.1
@@ -5879,7 +5836,7 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^16.8.0 || ^17.0.0":
+"react-dom@npm:17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-dom%2F-%2Freact-dom-17.0.2.tgz"
   dependencies:
@@ -5941,7 +5898,7 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"react@npm:^16.8.0 || ^17.0.0":
+"react@npm:17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact%2F-%2Freact-17.0.2.tgz"
   dependencies:
