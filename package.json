@@ -1,0 +1,61 @@
+{
+  "name": "bosi-bit-personal",
+  "version": "1.0.0",
+  "scripts": {},
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "npm run lint --fix",
+    "test": "jest",
+    "test:staged": "cross-env CI=true jest --findRelatedTests --coverage",
+    "prepare": "husky install"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Felipe Bosi",
+    "email": "bosiarquitetura@gmail.com"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --config ./.prettierrc.json --write",
+      "eslint --cache --fix",
+      "yarn test:staged"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^11.2.6",
+    "@types/eslint": "^7.2.10",
+    "@types/eslint-plugin-prettier": "^3.1.0",
+    "@types/jest": "^26.0.22",
+    "@types/prettier": "^2.2.3",
+    "@types/testing-library__jest-dom": "^5.9.5",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.1-alpha.5",
+    "async": "^3.2.0",
+    "babel-eslint": "^10.1.0",
+    "config": "^3.3.6",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.7.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "lint-staged": ">=10",
+    "prettier": "^2.2.1",
+    "request": "^2.88.2",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^9.1.1",
+    "type-fest": "^1.0.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.4"
+  }
+}
