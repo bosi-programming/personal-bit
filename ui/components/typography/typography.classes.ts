@@ -1,7 +1,6 @@
-import { css } from '@emotion/react';
-import { baseTheme } from '@ui/felipeb.personal-bit.base.theme';
+import { css, Theme } from '@emotion/react';
 
-export const baseTypography = (theme: typeof baseTheme) => css`
+export const baseTypography = (theme: Theme) => css`
   font-family: Roboto;
   color: ${theme.colors.primary};
 `;
