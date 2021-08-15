@@ -1,22 +1,32 @@
 ---
-description: 'A Theme component.'
-labels: ['label1', 'label2', 'label3']
+description: 'A Theme Context.'
+labels: ['theme', 'style']
 ---
 
-import { Theme } from './theme';
+import { ThemeProvider } from './theme';
+import { ThemeProviderWithTheme } from './theme.composition';
+import { baseTheme } from './baseTheme';
 
-## React Component for rendering text
+## Theme context with a provider that lets you customize the theme
 
-A basic div that renders some text
+A theme provider that lets you customize the theme used by the components on the library;
 
 ### Component usage
 ```js
-<Theme />
+<ThemeProvider theme={{ colors: { primary: 'red' }}}>
+Children here
+<ThemeProvider/>
 ```
 
-### Using props to customize the text
+### Using props to customize the theme
 
 Modify the text to see it change live:
 ```js live
-<Theme />
+<ThemeProviderWithTheme theme={{ colors: {primary: 'red' }}} />
 ```
+
+### Base Theme Object
+
+Bellow you can see the basic theme. You can overwrite any value bellow passing it to the ThemeProvider theme prop.
+
+<p style={{ whiteSpace: 'pre'}}>{JSON.stringify(baseTheme.theme, null, 2)}</p>
