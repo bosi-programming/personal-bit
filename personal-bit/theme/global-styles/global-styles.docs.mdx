@@ -1,0 +1,25 @@
+---
+description: 'A Global Styles component.'
+labels: ['styles', 'theme']
+---
+
+import { GlobalStyles } from './global-styles';
+
+## React Component that adds global styles
+
+This adds a global style that will affect all the app. This already contains a css reset on it and it accepts css written as in a common .css file.
+
+### Component usage
+```js
+<GlobalStyles globalStyle={'html { font-size: 30px }'} />
+```
+
+### Using props to customize the text
+
+Modify the text to see it change live:
+```js live
+<>
+<GlobalStyles />
+ <p>Test styles adding components bellow</p>
+</>
+```

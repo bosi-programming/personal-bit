@@ -9,23 +9,29 @@
  */
 
 {
-    "base/global-styles": {
-        "scope": "felipeb.personal-bit",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "ui/base/global-styles"
-    },
-    "base/theme": {
-        "scope": "felipeb.personal-bit",
-        "version": "0.0.2",
-        "mainFile": "index.ts",
-        "rootDir": "ui/base/theme"
-    },
     "components/typography": {
-        "scope": "felipeb.personal-bit",
-        "version": "0.0.2",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/typography"
+        "rootDir": "personal-bit/components/typography"
+    },
+    "hooks/use-theme": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "personal-bit/hooks/use-theme"
+    },
+    "theme/global-styles": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "personal-bit/theme/global-styles"
+    },
+    "theme/theme": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "personal-bit/theme/theme"
     },
     "$schema-version": "14.9.0"
 }
