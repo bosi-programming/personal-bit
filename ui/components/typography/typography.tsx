@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import React from 'react';
-import { jsx, useTheme } from '@emotion/react';
-import { baseTheme } from '@ui/felipeb.personal-bit.base.theme';
+import { jsx } from '@emotion/react';
 import { baseTypography } from './typography.classes';
 
 export type TypographyProps = {
@@ -12,10 +11,5 @@ export type TypographyProps = {
 };
 
 export function Typography({ text }: TypographyProps) {
-  let theme = useTheme();
-
-  if (!theme || Object.keys(theme).length === 0) {
-    theme = baseTheme;
-  }
-  return <div css={baseTypography(theme)}>{text}</div>;
+  return <div css={baseTypography}>{text}</div>;
 }

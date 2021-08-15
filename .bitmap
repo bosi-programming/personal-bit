@@ -17,13 +17,13 @@
     },
     "base/theme": {
         "scope": "felipeb.personal-bit",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "ui/base/theme"
     },
     "components/typography": {
         "scope": "felipeb.personal-bit",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "ui/components/typography"
     },

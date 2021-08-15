@@ -1,6 +1,5 @@
-import { css, Theme } from '@emotion/react';
+import { css } from '@emotion/react';
 
-export const baseTypography = (theme: Theme) => css`
+export const baseTypography = css`
   font-family: Roboto;
-  color: ${theme.colors.primary};
 `;
