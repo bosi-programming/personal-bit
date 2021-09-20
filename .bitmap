@@ -9,27 +9,33 @@
  */
 
 {
-    "components/typography": {
+    "components/button": {
         "scope": "",
         "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "personal-bit/components/button"
+    },
+    "components/typography": {
+        "scope": "felipeb.personal-bit",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "personal-bit/components/typography"
     },
     "hooks/use-theme": {
-        "scope": "",
-        "version": "",
+        "scope": "felipeb.personal-bit",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "personal-bit/hooks/use-theme"
     },
     "theme/global-styles": {
-        "scope": "",
-        "version": "",
+        "scope": "felipeb.personal-bit",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "personal-bit/theme/global-styles"
     },
     "theme/theme": {
-        "scope": "",
-        "version": "",
+        "scope": "felipeb.personal-bit",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "personal-bit/theme/theme"
     },

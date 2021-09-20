@@ -1,19 +1,31 @@
 import React, { createContext, useState } from 'react';
-import { updateTheme, baseTheme } from '.';
-import { Theme } from './baseTheme';
+import { baseTheme, Theme, getTheme } from './baseTheme';
+import { GlobalStyles } from './GlobalStyles';
 
 export interface ThemeProps {
   children: JSX.Element;
-  theme?: Theme;
+  /** Select between the theme options that we have: 'light' | 'dark' */
+  themeName?: Theme;
 }
 
 export const ThemeContext = createContext<typeof baseTheme>(baseTheme);
 
-export function ThemeProvider({ children, theme }: ThemeProps) {
-  const [state, setState] = useState(updateTheme(baseTheme.theme, theme));
+export function ThemeProvider({ children, themeName }: ThemeProps) {
+  const handleThemeChange = (newThemeName: Theme) => {
+    localStorage.setItem('themeName', newThemeName);
+    const newTheme = getTheme(newThemeName);
+    setState({ ...state, theme: newTheme, themeName: newThemeName });
+  };
+
+  const [state, setState] = useState({
+    themeName: baseTheme.themeName,
+    theme: themeName ? getTheme(themeName) : baseTheme.theme,
+    setTheme: handleThemeChange,
+  });
 
   return (
-    <ThemeContext.Provider value={{ state, setState }}>
+    <ThemeContext.Provider value={state}>
+      <GlobalStyles />
       {children}
     </ThemeContext.Provider>
   );
